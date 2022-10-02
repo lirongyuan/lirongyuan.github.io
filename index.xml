@@ -29,7 +29,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lirongyuan.github.io/research/</guid>
-      <description>Research Experience Roots of polynomials with random integer coefficients It is natural to use polynomials with integer coefficients for examples and exercises in an algebra course. However, not all such polynomials have all real roots. We ask a question: what is the probability that a random polynomial with integer coefficients has all real roots? We use some tools from probability theory and complex analysis to reduce the problem to studying the roots of random polynomials with real-valued coefficients instead.</description>
+      <description>Research Experience &amp;mdash; Role: Undergraduate Research Assistant &amp;mdash; Dept. of Mathematics, Purdue University, Summer 2012 Title: Roots of polynomials with random integer coefficients
+Abstract: It is natural to use polynomials with integer coefficients for examples and exercises in an algebra course. However, not all such polynomials have all real roots. We ask a question: what is the probability that a random polynomial with integer coefficients has all real roots? We use some tools from probability theory and complex analysis to reduce the problem to studying the roots of random polynomials with real-valued coefficients instead.</description>
     </item>
     
     <item>
@@ -38,7 +39,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lirongyuan.github.io/work/</guid>
-      <description>Work Experience Role: Software Engineer, Google C++ Toolchain Team, Dec 2019 - Present Developed a state-of-the-art gdb stub for a process-level virtualization system. Supported features include single-stepping, continuing, breakpoints and watchpoints, examining registers and memory, fault detection, module loading, multithreaded programs, and so on. Supported sanitizers (ASan, HWASan, TSan, MSan, and UBSan), profile-guided optimization (PGO), and remote debugging with LLDB for a new toolchain. Resolved technical blockers that required in-depth debugging at the intersection of multiple modules: sanitizers, GNU C Library, and QEMU.</description>
+      <description>Work Experience &amp;mdash; Role: Software Engineer, Google &amp;mdash; C++ Toolchain Team, Dec 2019 - Present Developed a state-of-the-art gdb stub for a process-level virtualization system. Supported features include single-stepping, continuing, breakpoints and watchpoints, examining registers and memory, fault detection, module loading, multithreaded programs, and so on. Supported sanitizers (ASan, HWASan, TSan, MSan, and UBSan), profile-guided optimization (PGO), and remote debugging with LLDB for a new toolchain. Resolved technical blockers that required in-depth debugging at the intersection of multiple modules: sanitizers, GNU C Library, and QEMU.</description>
     </item>
     
   </channel>
