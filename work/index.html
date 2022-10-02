@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="/sass/researcher.min.css">
 
     
+        <link rel="icon" type="image/ico" href="https://lirongyuan.github.io/favicon_io/favicon.ico">
+    
 
     
         
@@ -57,40 +59,89 @@
 <hr>
 <div id="content">
 <div class="container">
-    <h2 id="work">Work</h2>
-<p>I’m currently working on supporting remote debugging under a process-level virtualization system.</p>
+    <h2 id="work-experience">Work Experience</h2>
+<h3 id="role-software-engineer-google">Role: Software Engineer, Google</h3>
+<h4 id="c-toolchain-team-dec-2019---present">C++ Toolchain Team, Dec 2019 - Present</h4>
+<ul>
+<li>Developed a state-of-the-art gdb stub for a process-level virtualization system. Supported features include single-stepping, continuing, breakpoints and watchpoints, examining registers and memory, fault detection, module loading, multithreaded programs, and so on.</li>
+<li>Supported sanitizers (ASan, HWASan, TSan, MSan, and UBSan), profile-guided optimization (PGO), and remote debugging with LLDB for a new toolchain. Resolved technical blockers that required in-depth debugging at the intersection of multiple modules: sanitizers, GNU C Library, and QEMU.</li>
+</ul>
+<h4 id="search-ranking-team-nov-2017---dec-2019">Search Ranking Team, Nov 2017 - Dec 2019</h4>
+<ul>
+<li>Analyzed ranking experiments, came up with and executed plans to train and deploy machine learning models to improve relevance and quality of results.</li>
+<li>Redesigned the topic map pipeline so that running time is reduced by 75% (from 8 hours to 2 hours). This allowed faster quality iteration, more stable output tables, and enabled several feature launches.</li>
+</ul>
+<h4 id="gboard-ios-team-dec-2015---nov-2017">Gboard iOS Team, Dec 2015 - Nov 2017</h4>
+<ul>
+<li>Built the Gboard container app from scratch, which allowed more than 2 million users to look up instructions for installing Gboard, change settings and provide feedback.</li>
+<li>Designed the migration plan to a new build system and led implementation efforts across the team. This reduced build breakages due to obsolete dependencies, enabled continuous testing, fully automated release flows, and allowed integration with internal libraries.</li>
+<li>Integrated Breakpad (a crash analytics tool) into Gboard for crash reporting, which detected 318,006 production crashes and 1,511 debug crashes in total. Around 90 crash bugs were fixed in the next quarter.</li>
+</ul>
+<h4 id="app-invite-ios-sdk-team-sep-2014---dec-2015">App Invite iOS SDK Team, Sep 2014 - Dec 2015</h4>
+<ul>
+<li>Designed new features, optimized code infrastructure which reduced the framework size by 66% (from 6MB to 2MB), and maintained the project by fixing build breaks caused by external dependencies.</li>
+<li>Coordinated with first and third party partners to ensure the SDKs are set up and integrated correctly.</li>
+<li>Released four versions to the public successfully, which had a total of 39,876 downloads on Cocoapods.</li>
+</ul>
+<h3 id="role-software-engineer-intern-google">Role: Software Engineer Intern, Google</h3>
+<h4 id="google-ios-sdk-team-may-2013---aug-2013">Google+ iOS SDK Team, May 2013 - Aug 2013</h4>
+<ul>
+<li>Integrated a photo picker that supported multiple media attachments inside Google+ iOS SDK.</li>
+<li>Designed and implemented a first party sample app for the Google+ Share Box SDK.</li>
+<li>Migrated the project to use the gyp file for quick generation of Xcode projects.</li>
+</ul>
 <h2 id="open-source-contributions">Open Source Contributions</h2>
-<p>While working on supporting sanitizers (<code>ASan</code>, <code>HWASan</code>, <code>TSan</code>, <code>MSan</code>, and <code>UBSan</code>), profile-guided optimization (<code>PGO</code>), and <code>QEMU</code> for arm toolchain, I had the opportunity to contribute to many open source projects:</p>
-<ul>
-<li>LLVM
-<ul>
-<li><a href="https://github.com/llvm/llvm-project/commit/a5a6fd3f95a9ecc3ef8732192ce0fd7749135311">Update macro for OFF_T so that sanitizer works on AARCH64</a></li>
-<li><a href="https://github.com/llvm/llvm-project/commit/1267506ea54a62e0c728215c033b256ce856db30">Fix memory leak in <code>GetGDBServerRegisterInfoXMLAndProcess</code></a></li>
-</ul>
-</li>
-<li>QEMU
-<ul>
-<li><a href="http://patchwork.ozlabs.org/project/qemu-devel/patch/20200302193153.66415-1-yuanzi@google.com/">linux-user: Add AT_EXECFN auxval</a></li>
-<li><a href="http://patchwork.ozlabs.org/project/qemu-devel/patch/20200730193932.3654677-1-yuanzi@google.com/">linux-user: Update TASK_UNMAPPED_BASE for aarch64</a></li>
-<li><a href="http://patchwork.ozlabs.org/project/qemu-devel/patch/20200730193932.3654677-1-yuanzi@google.com/">gdbstub: add support to Xfer:auxv:read: packet</a></li>
-</ul>
-</li>
-<li>GLIBC
-<ul>
-<li><a href="https://patchwork.sourceware.org/project/glibc/patch/20210401193723.1224640-1-yuanzi@google.com/">locale: align <code>_nl_C_LC_CTYPE_class</code> and <code>_nl_C_LC_CTYPE_class32</code> arrays to <code>uint16_t</code> and <code>uint32_t</code> respectively</a></li>
-</ul>
-</li>
-</ul>
+<p>I had the opportunity to contribute to many open source projects:</p>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>Patch</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://llvm.org/">LLVM</a></td>
+<td><a href="https://github.com/llvm/llvm-project/commit/a5a6fd3f95a9ecc3ef8732192ce0fd7749135311">Update macro for OFF_T so that sanitizer works on AARCH64</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://github.com/llvm/llvm-project/commit/1267506ea54a62e0c728215c033b256ce856db30">Fix memory leak in <code>GetGDBServerRegisterInfoXMLAndProcess</code></a></td>
+</tr>
+<tr>
+<td><a href="https://www.qemu.org/">QEMU</a></td>
+<td><a href="http://patchwork.ozlabs.org/project/qemu-devel/patch/20200302193153.66415-1-yuanzi@google.com/">linux-user: Add AT_EXECFN auxval</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://patchwork.ozlabs.org/project/qemu-devel/patch/20200730193932.3654677-1-yuanzi@google.com/">linux-user: Update TASK_UNMAPPED_BASE for aarch64</a></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="http://patchwork.ozlabs.org/project/qemu-devel/patch/20200730193932.3654677-1-yuanzi@google.com/">gdbstub: add support to Xfer:auxv:read: packet</a></td>
+</tr>
+<tr>
+<td><a href="https://www.gnu.org/software/libc/">The GNU C Library</a></td>
+<td><a href="https://patchwork.sourceware.org/project/glibc/patch/20210401193723.1224640-1-yuanzi@google.com/">locale: align <code>_nl_C_LC_CTYPE_class</code> and <code>_nl_C_LC_CTYPE_class32</code> arrays to <code>uint16_t</code> and <code>uint32_t</code> respectively</a></td>
+</tr>
+</tbody>
+</table>
 
 </div>
 
         </div><div id="footer" class="mb-5">
     <hr>
     
+    <div class="container text-center">
+        
+            <a href="mailto:lirongyuan1000@gmail.com" class="fas fa-envelope fa-1x" title="E-mail"></a>
+        
+            <a href="https://www.linkedin.com/in/lirongyuan1000/" class="fab fa-linkedin fa-1x" title="Linkedin"></a>
+        
+            <a href="https://github.com/lirongyuan" class="fab fa-github fa-1x" title="Github"></a>
+        
+    </div>
     
-        <div class="container text-center">
-            <a href="https://github.com/lirongyuan/lirongyuan.github.io" title="By Lirong yuan"><small>By Lirong yuan</small></a>
-        </div>
     
 </div>
 </body>
