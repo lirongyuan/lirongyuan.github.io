@@ -5,8 +5,6 @@ https://github.com/davidrzs/latexcss
 MIT-License
 */
 
-
-
 /* Latin Modern (LaTeX default) font */
 
 @font-face {
@@ -78,11 +76,12 @@ h1:first-of-type  {
 /* Article Body */
 
 body {
-	text-align: justify;
+/*	text-align: justify;*/
+	text-align: left;
 	-moz-hyphens: auto;
 	-webkit-hyphens: auto;
 	hyphens: auto;
-  padding: 0 1em;
+  	padding: 0 1em;
 }
 
 dl dd {
@@ -90,12 +89,19 @@ dl dd {
 	text-align: center;
 }
 
+table, td, th {
+  border: 1px solid black;
+}
+
+td {
+  vertical-align: top;
+}
+
 @media (min-width: 43.75em) {
   body {
     padding: 0;
   }
 }
-
 
 .theorem {
 	 counter-increment: theorem;
