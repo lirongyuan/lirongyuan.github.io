@@ -5,52 +5,15 @@ https://github.com/davidrzs/latexcss
 MIT-License
 */
 
-/* Latin Modern (LaTeX default) font */
-
-@font-face {
-	font-family: 'Libertinus';
-	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/LibertinusSerif-Regular.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'Libertinus';
-	font-weight: bold;
-	font-style: normal;
-	src: url('fonts/LibertinusSerif-Bold.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'Libertinus';
-	font-weight: normal;
-	font-style: italic;
-	src: url('fonts/LibertinusSerif-Italic.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'Libertinus';
-	font-weight: bold;
-	font-style: italic;
-	src: url('fonts/LibertinusSerif-BoldItalic.woff2') format('woff2');
-}
-
-@font-face {
-	font-family: 'LibertinusMono';
-	font-weight: normal;
-	font-style: normal;
-	src: url('fonts/LibertinusMono-Regular.woff2') format('woff2');
-}
-
 /* Page Layout */
 
 body {
-  	background-color: #F9F9F9;
-  	font-size: 14pt;
+  	background-color: #FFFFF0;
+  	font-size: 12pt;
 }
 
 body {
-	font-family: 'Libertinus', serif;
+	font-family: serif;
 	counter-reset: theorem;
 	counter-reset: definition;
 }
@@ -100,7 +63,7 @@ table, td, th {
   	border: 1px solid gray;
   	padding: 0.3rem;
 	border-collapse: collapse;
-  	font-family: 'LibertinusMono', monospace;
+	font-family: monospace;
   	font-size: 10pt;
 }
 
